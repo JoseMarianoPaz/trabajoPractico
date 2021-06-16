@@ -14,4 +14,4 @@ app.get("/hopper",(req,res) => res.sendFile(path.join(__dirname,"views","hopper.
 app.get("/lovelace",(req,res) => res.sendFile(path.join(__dirname,"views","lovelace.html")));
 app.get("/turing",(req,res) => res.sendFile(path.join(__dirname,"views","turing.html")));
 
-app.listen(port,() =>console.log("servidor corriendo en http://localhost:" + port))
+app.listen(port,() =>console.log("servidor corriendo en http://localhost:" + port));
